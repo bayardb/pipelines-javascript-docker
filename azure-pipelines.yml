@@ -13,8 +13,9 @@ steps:
 - task: Docker@2
   inputs:
     containerRegistry: 'pricing-common-non-prod-pricing'
+    repository: 'sk7n5cgh18wl37zmhrva56xfw2mncp'
     command: 'buildAndPush'
     Dockerfile: 'app/Dockerfile'
     tags: |
       test1
-      test2
+      latest
