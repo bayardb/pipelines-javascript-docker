@@ -18,4 +18,3 @@ steps:
     Dockerfile: 'app/Dockerfile'
     tags: |
       test1
-      latest
